@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+    font-family: Inter,sans-serif;
+    color: #adadad;
+   /* margin-inline: 80px; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1,h2,h3,h4 {
+    font-family: Prata,sans-serif;
+    color: #ffff;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 32px;
+    margin-block-start: 24px;
+    margin-block-end: 0px;
+}
+
+.button {
+    font-family: Prata,sans-serif;
+    color: #000000;
+    font-weight: 100;
+    padding: 16px 32px;
+    background-color: #e1dc48;
+    width: fit-content;
+}
+
+/* TOP SECTION */
+
+.top-row {
+    display:flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: space-between;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+/*#top-heading {
+    align-self:;
+}*/
+
+#page-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex: 1 200px ;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.tabs {
+    margin: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #7e7d82;
+}
+
+
+/* MAIN SECTION */
+
+#main-text {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 64px;
+    margin-right: 64px;
+    
+   /* background-color: #7e7d82;*/
+    
+}
+
+.Logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 64px 64px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.burger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 64px;
+}
+
+.Spense,.YelpCamp {
+    width: 530px;
+}
+
+#co-founder{
+    font-size: 32px;
+    margin: 0px;
+    
+}
+
+
+.cofounder {
+    background-color: #3c3c48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 64px;
+    margin: 0;
+
+}
+
+.columns {
+    column-count: 2;
+    
+    margin-right: 64px;
+    
+}
+
+.get-in-touch {
+    padding: 32px;
+    margin-left: 32px;
+}
+
+.in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3c3c48;
+    margin: 0px;
+}
